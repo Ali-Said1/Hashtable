@@ -136,7 +136,7 @@ void printhashtable(int status)
                 printf("Name value: %s\n", ptr->name);
                 if (ptr->next != NULL) // Checking if there is another node linked to the current
                 {
-                    printf("Next name: %s\n", ptr->name);
+                    printf("Next name: %s\n", ptr->next->name);
                 }
                 else
                 {
@@ -144,7 +144,6 @@ void printhashtable(int status)
                     int j = i + 1;
                     while (j < initials)
                     {
-                        j++;
                         if (table[j] != NULL)
                         {
                             break;
