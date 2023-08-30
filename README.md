@@ -40,3 +40,9 @@ This function frees the memory allocated for all the nodes in the hashtable.
 ### bool isrepeated(char *input, node *ptr)
 
 This function checks if a given input is repeated in a linked list. It returns `true` if the input is repeated and `false` otherwise.
+
+Please note that the program will skip any invalid input (input that does not start with an alphanumeric character) and will display a message stating the skipped value.
+
+## Acknowledgments
+
+Special thanks to [geckord](https://codeberg.org/geckord) for their valuable [suggestions and feedback](https://discord.com/channels/393846237255696385/566419626758504452/1145299842822836267).
